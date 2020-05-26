@@ -1,0 +1,63 @@
+site_name: MavisBot
+site_url: https://mavis-bot.github.io/wiki/
+site_author: Prenses
+site_description: MavisBot'un Kullanım Kılavuzu
+repo_name: MavisBot
+repo_url: https://github.com/mavis-bot/wiki
+nav:
+  - Ana Sayfa: index.md
+  - MavisBot Nasıl Davet Edilir: invitemavis.md
+  - Komutlar: maviskomut.md   
+  - Bağış: bagis.md
+  - Yapımcılar: yapımcı.md
+  - Lisans: lisans.md
+google_analytics:
+  - GOOGLE_ANALYTICS_KEY
+  - auto
+theme:
+  name: material
+  language: tr
+  features:
+    tabs: false
+    instant: true
+  palette:
+    scheme: default
+    primary: indigo
+    accent: indigo
+  font:
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    logo: assets/logo.png
+  favicon: assets/favicon.png 
+extra:
+  social:
+    - icon: fontawesome/solid/globe
+      link: 'https://animewho.com/'
+    - icon: fontawesome/brands/github
+      link: https://github.com/Hime-Dev
+    - icon: fontawesome/brands/gitter
+      link: https://github.com/mavis-bot
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/animewho1
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/animewho.com_official/
+plugins:
+  - search:
+      separator: '[\s\-\.]+'
+      lang:
+        - tr
+  - git-revision-date-localized
+  - minify:
+      minify_html: true
+markdown_extensions:
+  - admonition
+  - pymdownx.superfences
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.tabbed
+  - codehilite
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+copyright: Copyright &copy; 2020 - 2021 Prenses
