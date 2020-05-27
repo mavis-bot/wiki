@@ -1,2 +1,0 @@
-# wiki
-MavisBot Kullanım Kılavuzu
